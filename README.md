@@ -120,7 +120,7 @@ Na osnovu svih rezultata i parametara, izveden je zaključak o najboljem modelu 
 Detaljni rezultati se nalaze u dokumentu ["rezultati.txt"](https://gitlab.com/KrstevFilip/Predicting_laptop_price/blob/master/rezultati.txt).
 
 # Reference
-[1] OpenTox, "K Nearest Neighbor", link:http://www.opentox.org/dev/documentation/components/knn , datum pristupa: 11.07.2016 <br>
+[1] OpenTox, "K Nearest Neighbor", link: http://www.opentox.org/dev/documentation/components/knn , datum pristupa: 11.07.2016 <br>
 [2] Oracle documentation, "Regression", link: https://docs.oracle.com/cd/B28359_01/datamine.111/b28129/regress.htm , datum pristupa: 11.07.2016 <br>
 [3] Weka documentation, "Class M5P" , link: http://weka.sourceforge.net/doc.dev/weka/classifiers/trees/M5P.html , datum pristupa: 11.07.2016 <br>
 [4] Sushilkumar Kalmegh "Analysis of WEKA Data Mining Algorithm REPTree, Simple Cart and RandomTree for Classification of Indian News " link: http://ijiset.com/vol2/v2s2/IJISET_V2_I2_63.pdf , datum pristupa: 11.07.2016. <br>
