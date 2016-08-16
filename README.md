@@ -18,7 +18,7 @@ Za prikupljanje podataka o novim laptop računarima korišćen je [eBay Finding 
 
 ![Upit](https://gitlab.com/KrstevFilip/Predicting_laptop_price/blob/master/images/upit.png "Upit")
 gde je $uri_finding = "http://svcs.ebay.com/services/search/FindingService/v1",  $search_type = 'findItemsByCategory=175672' , $version = "1.13.0" i $format = "JSON". Kategorija 175672 na eBay sajtu predstavlja laptop i netbook računare (Laptops & Netbooks). Takođe pri pozivu servisa navedeno je da kod svakog rezultata trebaju biti deklarisane sledeće specifikacije koje su uzete kao relevantne za ova dva tipa podataka : tip procesora, RAM memorija, veličina ekrana, tip grafike, operacioni sistem, da li računar poseduje SSD i naravno cena, koja je naglašena da treba da bude fiksna kako pri prikupljanju podataka u obzir ne bi ulazili podaci o aukcijama koji bi zbog specifičnosti stvaranja cene mogli narušiti konzistentnost skupa podataka. Obradom prikupljenih podataka napravljena su dva skupa podataka u [.arff](https://weka.wikispaces.com/ARFF+(stable+version)) formatu koji izgledaju
-![dataset1](https://gitlab.com/KrstevFilip/Predicting_laptop_price/blob/master/images/arff1.PNG "Dataset1")
+![Alt text](images/arff1.png?raw=true "Dataset1")
 ![dataset 2](https://gitlab.com/KrstevFilip/Predicting_laptop_price/blob/master/images/arff.PNG "Dataset 2"). 
 Podaci su obrađeni kako bi sve promenljive bile numerčkog ili nominalog tipa koji je potreban za prethodno navedene modele koji su koršćeni.
 
