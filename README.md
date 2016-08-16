@@ -107,20 +107,22 @@ Srednja kvadradna greška je prosečna vrednost kvadradnog odstupanja izmerene o
 ### Relativna kvadratna greška
 Kao kod relativne apsolutne greške, ovaj parametar prikazuje udeo kvadratne greške u veličini stvarne vrednosti. Ovaj parametar je važno koristiti kod upoređivanja različitih modela i njihovih srednjih kvadratnih odstupanja.<br>
 
-Jedan od korišćenih modela ima svoju specifičnost koja ga najbolje opisuje a to Linearni model, pa su prvo analizirana dva dobijena modela zasnovana prikupljenim skupovima podataka. 
+Linearni model je jedini algoritam koji ima specifičan parametar pogodan za međusobno upoređivanje više linearnih modela - ε slučajna greška. Upravo zbog toga su prvo analizirana dva dobijena linearna modela trenirana na prikupljenim skupovima podataka. 
 ![linearnimodel1](https://cloud.githubusercontent.com/assets/10245806/17697703/a22141bc-63b6-11e6-8165-15b5a413abc1.png "Linearni model 1")
-![linearnimodel2](https://cloud.githubusercontent.com/assets/10245806/17697730/c7aa35ba-63b6-11e6-94a8-b703586eeb46.png "Linearni model 2")
+![linearnimodel2](https://cloud.githubusercontent.com/assets/10245806/17697730/c7aa35ba-63b6-11e6-94a8-b703586eeb46.png "Linearni model 2")<br>
 Iz funkcija regresionih modela može se uočiti da je ε, slučajna greška, odnosno skrivena promenljiva koja pokazuje neopisanost modela kod prvog modela 166,0519 a drugog 183,657 iz čega se može zaključiti da, što se linearne regresije tiče, bolji model dobijen treniranjem nad prvim skupom podataka.
-Na osnovu sledeće tabele mogu se uporediti svi korišćene modele: 
+Na osnovu sledeće tabele mogu se uporediti svi korišćeni modeli: 
 ![tabela](https://cloud.githubusercontent.com/assets/10245806/17697739/da86c3c4-63b6-11e6-9e30-2809d5130948.png "Uporedna tabela")
 Uporedna analiza je izvršena na osnovu srednje kvadratne greške i, poređenjem rezultata po modelu po svakom od dva skupa podataka, zaključeno je da svi modeli trenirani nad prvim skupom podataka imaju manju srednju kvadratnu grešku, samim tim je i prvi skup podataka relevantniji za predikciju.
-Poređenjem modela treniranim nad prvim skupom podataka može se primetiti da najmanju srednje kvadratnu grešku ima Linearna regresija i sa veoma malom razlikom je sledi M5P model, a zatim REPTree. Poređenjem ova tri modela na drugom skupu podataka primetno je da je situacija malo drugačija, s toga se izvodi zaključak da u zavisnosti od skupa podataka, preporučuje se korišćenje nekog od tri prethodno navedena modela. Preporuka je da se koristi M5P modelu zbog konzistentnosti rezultata dobijenih ovim modelom.
+Poređenjem modela treniranim nad prvim skupom podataka može se primetiti da najmanju srednje kvadratnu grešku ima Linearna regresija i sa veoma malom razlikom je sledi M5P model, a zatim REPTree. Poređenjem ova tri modela na drugom skupu podataka primetno je da je situacija malo drugačija, s toga se izvodi zaključak da u zavisnosti od skupa podataka, preporučuje se korišćenje nekog od tri prethodno navedena modela. <br>
+
+Na osnovu svih rezultata i parametara, izveden je zaključak o najboljem modelu za početni problem predikcije cene. S obzirom na prednosti i nedostatke svakog modela, a najviše zbog opasnosti od naknadnog overfittovanja, odnosno pretreniranja modela nad trening skupom podataka, preporuka je da se koristi M5P model. Ovaj model je takođe predložen zbog konzistentnosti rezultata dobijenih u treniranjem modela. <br>
 Detaljni rezultati se nalaze u dokumentu ["rezultati.txt"](https://gitlab.com/KrstevFilip/Predicting_laptop_price/blob/master/rezultati.txt).
 
 # Reference
-[1] OpenTox link:http://www.opentox.org/dev/documentation/components/knn , 11.07.2016 <br>
-[2] Oracle documentation, link: https://docs.oracle.com/cd/B28359_01/datamine.111/b28129/regress.htm , 11.07.2016 <br>
-[3] Weka documentation about M5P library, link: http://weka.sourceforge.net/doc.dev/weka/classifiers/trees/M5P.html , 11.07.2016 <br>
-[4] Sushilkumar Kalmegh "Analysis of WEKA Data Mining Algorithm REPTree, Simple Cart and RandomTree for Classification of Indian News " link: http://ijiset.com/vol2/v2s2/IJISET_V2_I2_63.pdf , 11.07.2016. <br>
-[5] Weka. link: https://weka.wikispaces.com/ , 11.07.2016<br>
-[6] Michael Abernethy, "Data mining with WEKA, Part 1: Introduction and regression", 2010, link: http://www.ibm.com/developerworks/library/os-weka1/, 11.07.2016.<br>
+[1] OpenTox, "K Nearest Neighbor", link:http://www.opentox.org/dev/documentation/components/knn , datum pristupa: 11.07.2016 <br>
+[2] Oracle documentation, "Regression", link: https://docs.oracle.com/cd/B28359_01/datamine.111/b28129/regress.htm , datum pristupa: 11.07.2016 <br>
+[3] Weka documentation, "Class M5P" , link: http://weka.sourceforge.net/doc.dev/weka/classifiers/trees/M5P.html , datum pristupa: 11.07.2016 <br>
+[4] Sushilkumar Kalmegh "Analysis of WEKA Data Mining Algorithm REPTree, Simple Cart and RandomTree for Classification of Indian News " link: http://ijiset.com/vol2/v2s2/IJISET_V2_I2_63.pdf , datum pristupa: 11.07.2016. <br>
+[5] Weka, "Weka 3: Data Mining Software in Java",  link: http://www.cs.waikato.ac.nz/ml/weka/ , datum pristupa: 11.07.2016<br>
+[6] Michael Abernethy, "Data mining with WEKA, Part 1: Introduction and regression", 2010, link: http://www.ibm.com/developerworks/library/os-weka1/, datum pristupa: 11.07.2016.<br>
