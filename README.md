@@ -91,17 +91,17 @@ Podaci su obrađeni kako bi sve promenljive bile numerčkog ili nominalog tipa k
 
 # Tehnička realizacija
 
-Prikupljanje podataka i njihova obrada je urađena u programskom jeziku PHP. Realizicija upotrebljenih modela je urađena u programskom jeziku Java sa referenciranom bibliotekom Weka[5]. 
-Weka biblioteka je korišćena za primenu metoda mašinskog učenja nad skupovima podataka čiji je proces kreiranja ranije opisan. U pitanju je čitav niz algoritama mašinskog učenja koji se koriste za izvršavanje DataMining zadataka (procesiranje velike količine podataka sa ciljem dobijanja novih informacija). U pitanju je "open source" softver.[6]
+Prikupljanje podataka i njihova obrada je urađena u programskom jeziku PHP. Realizicija upotrebljenih modela je urađena u programskom jeziku Java sa referenciranom bibliotekom [Weka](http://www.cs.waikato.ac.nz/ml/weka/). 
+Weka biblioteka je korišćena za primenu metoda mašinskog učenja nad skupovima podataka čiji je proces kreiranja ranije opisan. U pitanju je čitav niz algoritama mašinskog učenja koji se koriste za izvršavanje DataMining zadataka (procesiranje velike količine podataka sa ciljem dobijanja novih informacija). U pitanju je "open source" softver.[5]
 Klase koje su korišćene iz navedene biblioteke su IBk(KNearestNeigbours), LinearRegression , M5P i REPTree.
 
 # Analiza
 
 Za upoređivanje predikcionih modela numeričke klase treba koristiti neke od sledećih parametara: srednja apsolutna greška, relativna apsolutna greška, srednja kvadratna greška i srednja relativna kvadratna greška.<br>
 ### Srednja apsolutna greška
-Apsolutna greška je brojna vrednost i u isto vreme fizička veličina koja opisuje razliku između prave i izmerene vrednosti izražena u jedinicama u kojima je izražena merena vrednost[7]. Njena srednja vrednost pokazuje prosečnu grešku koju ovaj model pravi na bilo kojoj narednoj predikciji. Ova vrednost je pogodna sa analizu jer pokazuje rezervu koja se uzima pri korišćenju modela u narednim predikcijama i to u jedinici u kojoj se vrši merenje.<br>
+Apsolutna greška je brojna vrednost i u isto vreme fizička veličina koja opisuje razliku između prave i izmerene vrednosti izražena u jedinicama u kojima je izražena merena vrednost[6]. Njena srednja vrednost pokazuje prosečnu grešku koju ovaj model pravi na bilo kojoj narednoj predikciji. Ova vrednost je pogodna sa analizu jer pokazuje rezervu koja se uzima pri korišćenju modela u narednim predikcijama i to u jedinici u kojoj se vrši merenje.<br>
 ### Relativna apsolutna greška
-Relativna greška je brojna vrednost koja se iskazuje kao udeo (frakcija) apsolutne greške u veličini stvarne vrednosti ili srednje vrednosti više merenja.[7] Ovaj parametar se koristi u statisticne svrhe i pogodan je za upoređivanje sa više različitih parametara, s obzirom da se izražava u procentima <br>
+Relativna greška je brojna vrednost koja se iskazuje kao udeo (frakcija) apsolutne greške u veličini stvarne vrednosti ili srednje vrednosti više merenja.[6] Ovaj parametar se koristi u statisticne svrhe i pogodan je za upoređivanje sa više različitih parametara, s obzirom da se izražava u procentima <br>
 ### Srednja kvadratna greška
 Srednja kvadradna greška je prosečna vrednost kvadradnog odstupanja izmerene od stvarne vrednosti. Ovaj parametar je često koristi jer sagledava modele rigoroznije od prethodna dva parametra: Veća odstupanja se kvadriranjem "kažnjavaju" i samim tim ovaj parametar je veći kod modela koji ne predviđaju sve uzorke sa ujednačeno malom greškom.<br>
 ### Relativna kvadratna greška
@@ -121,7 +121,6 @@ Detaljni rezultati se nalaze u dokumentu ["rezultati.txt"](https://gitlab.com/Kr
 [1] OpenTox link:http://www.opentox.org/dev/documentation/components/knn , 11.07.2016 <br>
 [2] Oracle documentation, link: https://docs.oracle.com/cd/B28359_01/datamine.111/b28129/regress.htm , 11.07.2016 <br>
 [3] Weka documentation about M5P library, link: http://weka.sourceforge.net/doc.dev/weka/classifiers/trees/M5P.html , 11.07.2016 <br>
-[4] Sushilkumar Kalmegh "Analysis of WEKA Data Mining Algorithm REPTree, Simple Cart and RandomTree for Classification of Indian News " link: http://ijiset.com/vol2/v2s2/IJISET_V2_I2_63.pdf , 11.07.2016.
-[5] Weka library for Java, link: http://www.cs.waikato.ac.nz/ml/weka/ , 11.07.2016 <br>
-[6] Weka. link: https://weka.wikispaces.com/ , 11.07.2016<br>
-[7] Michael Abernethy, "Data mining with WEKA, Part 1: Introduction and regression", 2010, link: http://www.ibm.com/developerworks/library/os-weka1/, 11.07.2016.<br>
+[4] Sushilkumar Kalmegh "Analysis of WEKA Data Mining Algorithm REPTree, Simple Cart and RandomTree for Classification of Indian News " link: http://ijiset.com/vol2/v2s2/IJISET_V2_I2_63.pdf , 11.07.2016. <br>
+[5] Weka. link: https://weka.wikispaces.com/ , 11.07.2016<br>
+[6] Michael Abernethy, "Data mining with WEKA, Part 1: Introduction and regression", 2010, link: http://www.ibm.com/developerworks/library/os-weka1/, 11.07.2016.<br>
