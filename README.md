@@ -5,19 +5,47 @@ U projektu su korišćena četiri vrste predikcionih metoda. Metode koje su kori
 
 # Korišćene metode
 
-- Metoda k-najbližih suseda predstavlja neparametrsku klasifikacionu tehniku koja klasifikuje zadati vektor atributa na osnovu skupa od k najbližih suseda tog vektora. Pri tom se pod najbližim susedima misli na podatke iz trening skupa podataka koji imaju najviši stepen sličnosti vektora atributa sa posmatranim vektorom.
-- Linearna regresija (LinearRegression) je popularna tehnika koja se često koristi u procesu rudarenje podataka (Data Mining). Metoda je veoma prosta kada se koristi za predviđanje jedne izlazne promenljive sa jednom ulaznom promenjljivom. Uopšteno, model koristi jednu ili više nezavisnih promenljivih i predviđa nezavisnu promeljivu kao rezultat. Regresioni model se koristi za predviđanje vrednosti nepoznate promenljive.
-
-- M5P implementira bazne rutine za generisanje M5 Model stabla i pravila. Originalan R. Quinlan-ov i Yong Wang-ov algoritam M5 je unapređen. M5P kombinuje konvencionalno drvo odlučivanja sa funkcijom linearne regresije u čvorovima. Algoritam koji generise drvo odlučivanja je korišćen za pravljenje stabla, ali umesto entropije za svaki unutrašnji čvor, kriterijum podele koji se koristi je minimizacija varijanse u svakom podstablu. 
-
-- REPTree koristi regresiono stablo kako bi  kreirao različita stabla u više iteracija. Nakon toga bira najbolje stablo od svih generisanih koje će se smatrati reprezentativnim.
+### Metoda k-najbližih suseda
+Metoda k-najbližih suseda predstavlja neparametrsku klasifikacionu tehniku koja klasifikuje zadati vektor atributa na osnovu skupa od k najbližih suseda tog vektora. Pri tom se pod najbližim susedima misli na podatke iz trening skupa podataka koji imaju najviši stepen sličnosti vektora atributa sa posmatranim vektorom.<br>
+### Linearna regresija
+Linearna regresija (LinearRegression) je popularna tehnika koja se često koristi u procesu rudarenje podataka (Data Mining). Metoda je veoma prosta kada se koristi za predviđanje jedne izlazne promenljive sa jednom ulaznom promenjljivom. Uopšteno, model koristi jednu ili više nezavisnih promenljivih i predviđa nezavisnu promeljivu kao rezultat. Regresioni model se koristi za predviđanje vrednosti nepoznate promenljive.<br>
+### M5P
+M5P implementira bazne rutine za generisanje M5 Model stabla i pravila. Originalan R. Quinlan-ov i Yong Wang-ov algoritam M5 je unapređen. M5P kombinuje konvencionalno drvo odlučivanja sa funkcijom linearne regresije u čvorovima. Algoritam koji generise drvo odlučivanja je korišćen za pravljenje stabla, ali umesto entropije za svaki unutrašnji čvor, kriterijum podele koji se koristi je minimizacija varijanse u svakom podstablu.<br> 
+### REPTree
+REPTree koristi regresiono stablo kako bi  kreirao različita stabla u više iteracija. Nakon toga bira najbolje stablo od svih generisanih koje će se smatrati reprezentativnim.
 
 # Skup podataka
 
 Za prikupljanje podataka o novim laptop računarima korišćen je [eBay Finding API](https://go.developer.ebay.com/what-ebay-api). Servis je prvo korišćen radi prikupljanja ID-jeva proizvoda, da bi potom pomoću istog servisa korišćenjem prikupljenih ID-jeva prikupljani podaci za dva skupa podataka.
-
-![Upit](https://gitlab.com/KrstevFilip/Predicting_laptop_price/blob/master/images/upit.png "Upit")
-gde je $uri_finding = "http://svcs.ebay.com/services/search/FindingService/v1",  $search_type = 'findItemsByCategory=175672' , $version = "1.13.0" i $format = "JSON". Kategorija 175672 na eBay sajtu predstavlja laptop i netbook računare (Laptops & Netbooks). Takođe pri pozivu servisa navedeno je da kod svakog rezultata trebaju biti deklarisane sledeće specifikacije koje su uzete kao relevantne za ova dva tipa podataka : tip procesora, RAM memorija, veličina ekrana, tip grafike, operacioni sistem, da li računar poseduje SSD i naravno cena, koja je naglašena da treba da bude fiksna kako pri prikupljanju podataka u obzir ne bi ulazili podaci o aukcijama koji bi zbog specifičnosti stvaranja cene mogli narušiti konzistentnost skupa podataka. Obradom prikupljenih podataka napravljena su dva skupa podataka u [.arff](https://weka.wikispaces.com/ARFF+(stable+version)) formatu koji izgledaju <br>
+```
+http://svcs.ebay.com/services/search/findingservice/v1?operation-name=finditemsbyproduct&service-version=
+1.13.0&SECURITY-APPNAME=freelanc-xxxx-xxxx-xxxx-xxxxxxxxxxxx&RESPONSE-DATA-FORMAT=JSON
+&REST-PAYLOAD&categoryId=175672&paginationInput.entriesPerPage=100&paginationInput.pageNumber=x
+&itemFilter(0).name=Condition&itemFilter(0).value=1000&itemFilter(1).name=ListingType&itemFilter(1).
+value=FixedPrice&aspectFilter(0).aspectName=Processor+Type&aspectFilter(0).aspectValueName(0)=Intel+Xeon
+&aspectFilter(0).aspectValueName(1)=AMD+E-Series&aspectFilter(0).aspectValueName(2)=Intel+Atom&
+aspectFilter(0).aspectValueName(3)=Intel+Celeron&aspectFilter(0).aspectValueName(4)=Intel+Core+2+Duo&
+aspectFilter(0).aspectValueName(5)=Intel+Core+2+Quad&
+aspectFilter(0).aspectValueName(6)=Intel+Core+i3+1st+Gen.&
+aspectFilter(0).aspectValueName(7)=Intel+Core+i3+2nd+Gen.&
+aspectFilter(0).aspectValueName(7)=Intel+Core+i3+3rd+Gen.&
+aspectFilter(0).aspectValueName(8)=Intel+Core+i3+4th+Gen.&
+aspectFilter(0).aspectValueName(9)=Intel+Core+i5+1st+Gen.&
+aspectFilter(0).aspectValueName(10)=Intel+Core+i5+2nd+Gen.&
+aspectFilter(0).aspectValueName(11)=Intel+Core+i5+3rd+Gen.&
+aspectFilter(0).aspectValueName(12)=Intel+Core+i5+4th+Gen.&
+aspectFilter(0).aspectValueName(13)=Intel+Core+i7+1st+Gen.&
+aspectFilter(0).aspectValueName(14)=Intel+Core+i7+2nd+Gen.&
+aspectFilter(0).aspectValueName(15)=Intel+Core+i7+3rd+Gen.&
+aspectFilter(0).aspectValueName(16)=Intel+Core+i7+4th+Gen.&
+aspectFilter(0).aspectValueName(17)=Intel+Pentium&
+aspectFilter(1).aspectName=Graphics+Processing+Type&
+aspectFilter(1).aspectValueName(0)=Dedicated+Graphics&
+aspectFilter(1).aspectValueName(1)=Hybrid+Graphics&
+aspectFilter(1).aspectValueName(2)=Integrated/On-Board+Graphics&
+aspectFilter(2).aspectName=Memory&aspectFilter(0).aspectValueName=1+GB+or+more
+```
+ Kategorija 175672 na eBay sajtu predstavlja laptop i netbook računare (Laptops & Netbooks). Takođe pri pozivu servisa navedeno je da kod svakog rezultata trebaju biti deklarisane sledeće specifikacije koje su uzete kao relevantne za ova dva tipa podataka : tip procesora, RAM memorija, veličina ekrana, tip grafike, operacioni sistem, da li računar poseduje SSD i naravno cena, koja je naglašena da treba da bude fiksna kako pri prikupljanju podataka u obzir ne bi ulazili podaci o aukcijama koji bi zbog specifičnosti stvaranja cene mogli narušiti konzistentnost skupa podataka. Obradom prikupljenih podataka napravljena su dva skupa podataka u [.arff](https://weka.wikispaces.com/ARFF+(stable+version)) formatu koji izgledaju <br>
 ![arff](https://cloud.githubusercontent.com/assets/10245806/17696718/88c4d8ce-63b0-11e6-85a9-565c035e158a.PNG)<br>
 ![arff1](https://cloud.githubusercontent.com/assets/10245806/17696773/e3e381b0-63b0-11e6-80a9-aef9624e179a.PNG)
 
