@@ -45,8 +45,9 @@ public class Util {
 			source = new DataSource(fileLocation);
 			instances = source.getDataSet();
 
-			trainigDataset = buildTraingAndTestSets(instances)[0];
-			testDataset = buildTraingAndTestSets(instances)[1];
+			Instances[] trainingTestDataset = buildTraingAndTestSets(instances);
+			trainigDataset = trainingTestDataset[0];
+			testDataset = trainingTestDataset[1];
 
 			predictingInstance = testDataset.get(Math.round(new Random().nextInt(testDataset.size())));
 			price = predictingInstance.classValue();
