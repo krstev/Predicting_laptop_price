@@ -122,6 +122,6 @@ Detaljni rezultati se nalaze u dokumentu ["rezultati.txt"](https://gitlab.com/Kr
 [1] OpenTox, "K Nearest Neighbor", link: http://www.opentox.org/dev/documentation/components/knn , datum pristupa: 11.07.2016. <br>
 [2] Oracle documentation, "Regression", link: https://docs.oracle.com/cd/B28359_01/datamine.111/b28129/regress.htm , datum pristupa: 11.07.2016. <br>
 [3] Weka documentation, "Class M5P" , link: http://weka.sourceforge.net/doc.dev/weka/classifiers/trees/M5P.html , datum pristupa: 11.07.2016. <br>
-[4] Sushilkumar Kalmegh "Analysis of WEKA Data Mining Algorithm REPTree, Simple Cart and RandomTree for Classification of Indian News " link: http://ijiset.com/vol2/v2s2/IJISET_V2_I2_63.pdf , datum pristupa: 11.07.2016. <br>
+[4] Sushilkumar Kalmegh "Analysis of WEKA Data Mining Algorithm REPTree, Simple Cart and RandomTree for Classification of Indian News " , link: http://ijiset.com/vol2/v2s2/IJISET_V2_I2_63.pdf , datum pristupa: 11.07.2016. <br>
 [5] Weka, "Weka 3: Data Mining Software in Java",  link: http://www.cs.waikato.ac.nz/ml/weka/ , datum pristupa: 11.07.2016.<br>
-[6] Michael Abernethy, "Data mining with WEKA, Part 1: Introduction and regression", 2010, link: http://www.ibm.com/developerworks/library/os-weka1/, datum pristupa: 11.07.2016.<br>
+[6] Michael Abernethy, "Data mining with WEKA, Part 1: Introduction and regression",  link: http://www.ibm.com/developerworks/library/os-weka1/, datum pristupa: 11.07.2016.<br>
