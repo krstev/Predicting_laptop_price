@@ -130,7 +130,7 @@ Model linearne regresije je jedini algoritam koji ima specifičan parametar pogo
 Iz funkcija regresionih modela može se uočiti da je ε, slučajna greška, odnosno skrivena promenljiva koja pokazuje neopisanost modela kod prvog modela 166,0519 a drugog 183,657 iz čega se može zaključiti da, što se linearne regresije tiče, bolji model dobijen treniranjem nad prvim skupom podataka.
 
 Na osnovu sledeće tabele mogu se uporediti svi korišćeni modeli: 
-![tabela](https://cloud.githubusercontent.com/assets/10245806/17697739/da86c3c4-63b6-11e6-9e30-2809d5130948.png "Uporedna tabela")
+![tabela2](https://cloud.githubusercontent.com/assets/10245806/18419098/2b2013ce-7854-11e6-8fdc-b77c8614f765.png "Uporedna tabela")
 Uporedna analiza je izvršena na osnovu srednje kvadratne greške. Poređenjem rezultata po modelu po svakom od dva skupa podataka, zaključeno je da svi modeli trenirani nad prvim skupom podataka imaju manju srednju kvadratnu grešku, samim tim je i prvi skup podataka relevantniji za predikciju.
 
 Poređenjem modela treniranim nad prvim skupom podataka može se primetiti da najmanju srednju kvadratnu grešku ima Linearna regresija, sa veoma malom razlikom je sledi M5P model, a zatim REPTree. Poređenjem ova tri modela na drugom skupu podataka primetno je da je situacija malo drugačija, s toga se izvodi zaključak da se u zavisnosti od skupa podataka, preporučuje korišćenje nekog od tri prethodno navedena modela.
