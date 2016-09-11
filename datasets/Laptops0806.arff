@@ -27,7 +27,6 @@ i54th,4 ,14,Integrated/On-BoardGraphics,Windows7,Yes,400
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,299.99
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,289.99
 i54th,6,15.6,Integrated/On-BoardGraphics,Windows8,No,379.98
-Celeron,4,16,Integrated/On-BoardGraphics,Windows10,No,369.99
 i54th,6,15.6,Integrated/On-BoardGraphics,Windows10,No,429.95
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,299.99
 i54th,4,17.3,Integrated/On-BoardGraphics,Windows10,No,486
@@ -35,7 +34,6 @@ Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,274.95
 i54th,12,15.6,Integrated/On-BoardGraphics,Windows10,No,599.99
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,299.95
 i74th,8,15.6,DedicatedGraphics,Windows10,No,846.96
-Celeron,4,16,Integrated/On-BoardGraphics,Windows10,No,349.99
 i54th,8,17.3,DedicatedGraphics,Windows8,No,524.95
 i54th,4,15.6,Integrated/On-BoardGraphics,Windows8,No,599.99
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,179.99
@@ -58,7 +56,6 @@ Pentium,4,15.6,Integrated/On-BoardGraphics,Windows8,No,359.99
 i74th,16,17.3,DedicatedGraphics,Windows10,No,850
 i74th,8,15.6,DedicatedGraphics,Windows10,No,999.99
 Celeron,2,14,Integrated/On-BoardGraphics,Windows10,No,220
-Celeron,4,16,Integrated/On-BoardGraphics,Windows10,No,369.99
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,169.95
 i74th,8,12,Integrated/On-BoardGraphics,Windows8,Yes,750.99
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,269
@@ -80,7 +77,6 @@ i74th,16,17.3,DedicatedGraphics,Windows8,No,1632.11
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,379.99
 i74th,8,15.6,DedicatedGraphics,Windows8,No,699.99
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,279.99
-Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,169.95
 i74th,16,12.3,Integrated/On-BoardGraphics,Windows10,Yes,1849.99
 Celeron,4,11.6,Integrated/On-BoardGraphics,Windows10,No,319
 i54th,4,15.6,Integrated/On-BoardGraphics,Windows7,No,797.97
@@ -95,26 +91,22 @@ Pentium,4 ,11.6,Integrated/On-BoardGraphics,Windows10,No,319.99
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows7,Yes,139
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,199.95
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,199.99
-Pentium,4,15.6,Integrated/On-BoardGraphics,Windows10,No,299.99
 i74th,8,15.6,Integrated/On-BoardGraphics,Windows7,No,775
 Celeron,4,15.6,Integrated/On-BoardGraphics,ChromeOS,Yes,309.99
 Pentium,4,15.6,Integrated/On-BoardGraphics,Windows10,No,379.99
 i54th,6,15.6,Integrated/On-BoardGraphics,Windows10,No,479.99
 Pentium,4,15.6,Integrated/On-BoardGraphics,Windows8,No,354
 i33rd,8,14,Integrated/On-BoardGraphics,Windows7,No,499
-Pentium,4,15.6,Integrated/On-BoardGraphics,Windows8,No,349.99
 i74th,16,15.6,Integrated/On-BoardGraphics,Windows8,No,950
 i73rd,8,14.1,DedicatedGraphics,Windows7,Yes,819.99
 Pentium,4,11.6,Integrated/On-BoardGraphics,Windows10,No,326.19
 i54th,8,15.6,Integrated/On-BoardGraphics,Windows10,No,549.99
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,309.94
 i54th,8,17.3,DedicatedGraphics,Windows7,No,619
-Pentium,4,15.6,Integrated/On-BoardGraphics,Windows10,No,279.99
 i74th,20,17.3,DedicatedGraphics,Windows8,No,1966.9
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,289.94
 i54th,8,15.6,Integrated/On-BoardGraphics,Windows10,No,549.88
 i74th,20,17.3,DedicatedGraphics,Windows8,No,1966.9
-Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,289.94
 i74th,8,14,Integrated/On-BoardGraphics,Windows8,No,890
 i54th,8,15.6,Integrated/On-BoardGraphics,Windows8,Yes,954.53
 i54th,8,14,Integrated/On-BoardGraphics,Windows8,No,499
@@ -128,7 +120,6 @@ i54th,8,17.3,DedicatedGraphics,Windows7,No,619
 i74th,8,17.3,DedicatedGraphics,Windows8,No,1499.97
 i54th,8 ,15.6,Integrated/On-BoardGraphics,Windows8,No,599.5
 i54th,4,17.3,Integrated/On-BoardGraphics,Windows8,No,579.99
-Pentium,4,11.6,Integrated/On-BoardGraphics,Windows8,No,489.99
 i74th,8,15.6,DedicatedGraphics,Windows8,No,779.99
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows7,No,359.99
 i54th,8,17.3,DedicatedGraphics,Windows8,No,649
@@ -140,19 +131,16 @@ i54th,8,15.6,Integrated/On-BoardGraphics,Windows10,No,455.88
 Celeron,4 ,15.6,Integrated/On-BoardGraphics,Windows8,No,296.99
 i74th,8,15.6,Integrated/On-BoardGraphics,Windows7,No,775
 Celeron,2,14,Integrated/On-BoardGraphics,Windows10,Yes,279.99
-Pentium,4 ,15.6,Integrated/On-BoardGraphics,Windows8,No,419.99
 i74th,12,17.3,Integrated/On-BoardGraphics,Windows8,No,999.99
 AMDESeries,8,15.6,Integrated/On-BoardGraphics,Windows8,No,651.16
 i54th,12,15.6,Integrated/On-BoardGraphics,Windows7,No,890.95
 i54th,8,15.6,Integrated/On-BoardGraphics,Windows8,No,599.99
 i74th,8 ,13.3,Integrated/On-BoardGraphics,WindowsXP,Yes,1399.99
 i54th,6,15.6,Integrated/On-BoardGraphics,Windows8,No,679.99
-Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,335.99
 Celeron,4,11.6,Integrated/On-BoardGraphics,Windows8,No,369.95
 i74th,8,14,DedicatedGraphics,Windows8,No,699
 Pentium,4,11.6,Integrated/On-BoardGraphics,Windows8,No,300
 Celeron,4,11.6,Integrated/On-BoardGraphics,Windows10,No,314.76
-Celeron,2,14,Integrated/On-BoardGraphics,Windows10,No,209.99
 i74th,12,15.6,Integrated/On-BoardGraphics,Windows8,No,789.99
 i54th,6,15.6,Integrated/On-BoardGraphics,Windows10,No,449.88
 i74th,6,15.6,Integrated/On-BoardGraphics,Windows8,No,649.99
@@ -170,11 +158,9 @@ i74th,8,17.3,Integrated/On-BoardGraphics,Windows10,No,899.53
 i54th,8,15.6,Integrated/On-BoardGraphics,Windows10,No,599
 i54th,8,15.6,Integrated/On-BoardGraphics,Windows8,No,752.98
 i74th,16,15.6,DedicatedGraphics,Windows10,No,1449.86
-Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,349.99
 i54th,8,15.6,Integrated/On-BoardGraphics,Windows7,No,769.99
 i74th,16,15.6,DedicatedGraphics,Windows8,Yes,897.96
 i53rd,4 ,11.6,Integrated/On-BoardGraphics,Windows8,Yes,499
-Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,199.99
 Celeron,2,13.3,Integrated/On-BoardGraphics,Windows10,Yes,199.95
 i54th,8 ,15.6,Integrated/On-BoardGraphics,Windows8,No,599.5
 i33rd,8,15.6,Integrated/On-BoardGraphics,Windows8,No,678.85
@@ -193,7 +179,6 @@ i54th,4,14,Integrated/On-BoardGraphics,Windows7,Yes,1584.53
 i33rd,4 ,14,Integrated/On-BoardGraphics,Windows7,No,798.99
 i74th,12 ,15.6,DedicatedGraphics,Windows8,No,1381.91
 i54th,4,17.3,Integrated/On-BoardGraphics,Windows10,No,499.99
-Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,302.95
 Celeron,2,13.3,Integrated/On-BoardGraphics,Windows10,Yes,199.95
 i54th,8 ,13.3,Integrated/On-BoardGraphics,WindowsXP,No,2048.99
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,Yes,229.99
@@ -208,7 +193,6 @@ i74th,8,15.6,Integrated/On-BoardGraphics,Windows10,No,1199.53
 i74th,16 ,15.6,DedicatedGraphics,Windows8,No,1478.65
 i74th,16,15.6,Integrated/On-BoardGraphics,Windows8,No,1190.66
 i74th,16,15.6,Integrated/On-BoardGraphics,Windows8,No,1008.41
-Pentium,8,15.6,Integrated/On-BoardGraphics,Windows8,No,545.56
 Celeron,4,14,Integrated/On-BoardGraphics,ChromeOS,No,249.98
 i74th,8 ,13.3,Integrated/On-BoardGraphics,Windows8,No,1595.22
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,239.99
@@ -237,7 +221,6 @@ AMDSemprom,4,15.6,Integrated/On-BoardGraphics,Windows7,No,379.95
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,289.94
 AMDESeries,8,15.6,Integrated/On-BoardGraphics,Windows8,No,527.96
 Pentium,4,15.6,Integrated/On-BoardGraphics,Windows10,No,554.53
-Pentium,4,15.6,Integrated/On-BoardGraphics,Windows10,No,554.53
 i54th,4,15.6,Integrated/On-BoardGraphics,Windows8,No,734.53
 i54th,8,15.6,Integrated/On-BoardGraphics,Windows8,No,979.95
 i54th,4,17.3,Integrated/On-BoardGraphics,Windows10,No,644.53
@@ -251,10 +234,8 @@ i33rd,4 ,14,Integrated/On-BoardGraphics,Windows7,No,798.99
 i54th,4,15.6,Integrated/On-BoardGraphics,Windows7,No,793.97
 i54th,16,17.3,Integrated/On-BoardGraphics,Windows8,No,1148.54
 i74th,16 ,14,Integrated/On-BoardGraphics,Windows7,Yes,1899
-Pentium,4,15.6,Integrated/On-BoardGraphics,Windows10,No,499.53
 i74th,16,17.3,DedicatedGraphics,Windows8,No,1847.96
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,302.95
-Celeron,2,14,Integrated/On-BoardGraphics,ChromeOS,No,186.19
 i33rd,6,15.6,Integrated/On-BoardGraphics,Windows8,No,409.95
 Pentium,4,11.6,Integrated/On-BoardGraphics,Windows8,Yes,800.1
 i74th,8,15.6,Integrated/On-BoardGraphics,Windows8,No,1300.73
@@ -282,7 +263,6 @@ i54th,6,15.6,Integrated/On-BoardGraphics,Windows8,No,799.53
 Pentium,4,11.6,Integrated/On-BoardGraphics,Windows10,No,300
 i53rd,8 ,15.6,Integrated/On-BoardGraphics,Windows8,No,579.97
 Celeron,2 ,10.1,Integrated/On-BoardGraphics,Windows8,No,531.16
-Pentium,4,15.6,Integrated/On-BoardGraphics,Windows10,No,544.53
 i74th,16,15.6,Integrated/On-BoardGraphics,Windows8,No,903.11
 i54th,8,15.6,Integrated/On-BoardGraphics,Windows8,No,844.53
 i74th,8 ,18.4,DedicatedGraphics,Windows7,No,3354.53
@@ -307,11 +287,9 @@ Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,232.96
 i74th,8,15.6,Integrated/On-BoardGraphics,Windows7,Yes,999.53
 i54th,8,17.3,DedicatedGraphics,Windows7,No,637.85
 i74th,12,15.6,Integrated/On-BoardGraphics,Windows8,No,1398.51
-Pentium,4,11.6,Integrated/On-BoardGraphics,Windows10,No,620.36
 i54th,4,14,Integrated/On-BoardGraphics,Windows7,No,799.99
 Pentium,4,15.6,Integrated/On-BoardGraphics,Windows10,No,329.98
 i54th,12,15.6,Integrated/On-BoardGraphics,Windows8,No,1340.95
-Pentium,4,11.6,Integrated/On-BoardGraphics,Windows7,No,499.53
 i54th,4,15.6,Integrated/On-BoardGraphics,Windows8,No,734.53
 i54th,12,17.3,Integrated/On-BoardGraphics,Windows8,No,898.85
 i74th,16 ,15.6,Integrated/On-BoardGraphics,Windows8,Yes,1447.56
@@ -322,9 +300,7 @@ i54th,4,15.6,Integrated/On-BoardGraphics,Windows7,No,864.53
 i54th,8,13.3,Integrated/On-BoardGraphics,Windows7,No,724.5
 i53rd,4,14,Integrated/On-BoardGraphics,Windows7,No,525
 i74th,8 ,14,Integrated/On-BoardGraphics,Windows8,No,1277.95
-Celeron,4 ,11.6,Integrated/On-BoardGraphics,Windows10,No,597.94
 i74th,8 ,14,Integrated/On-BoardGraphics,Windows8,No,1277.95
-Pentium,8,15.6,Integrated/On-BoardGraphics,Windows8,No,575.62
 i54th,8,17.3,DedicatedGraphics,Windows7,No,619
 i74th,12,15.6,Integrated/On-BoardGraphics,Windows8,No,829.99
 i54th,4 ,11.6,Integrated/On-BoardGraphics,Windows8,No,1354.45
@@ -354,9 +330,7 @@ Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,242.98
 i74th,12,15.6,Integrated/On-BoardGraphics,Windows8,No,1398.51
 i53rd,4 ,11.6,Integrated/On-BoardGraphics,Windows8,Yes,799
 i74th,8 ,17.3,Integrated/On-BoardGraphics,Windows8,No,1601.56
-Pentium,6,15.6,Integrated/On-BoardGraphics,Windows8,No,584.53
 i74th,8 ,15.6,DedicatedGraphics,Windows8,No,1899.53
-Celeron,2,14,Integrated/On-BoardGraphics,Windows8,No,670.73
 i74th,8,17.3,Integrated/On-BoardGraphics,Windows8,No,1114.53
 i74th,8 ,14,DedicatedGraphics,Windows8,Yes,744.99
 i74th,8 ,14,Integrated/On-BoardGraphics,Windows7,Yes,1299.57
@@ -391,9 +365,7 @@ i53rd,4 ,11.6,Integrated/On-BoardGraphics,Windows8,Yes,799
 i74th,8 ,14,Integrated/On-BoardGraphics,Windows10,Yes,1599.71
 i54th,4,17.3,Integrated/On-BoardGraphics,Windows10,No,644.53
 i53rd,6,15.6,Integrated/On-BoardGraphics,Windows8,No,744.53
-Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,499.53
 i74th,8,17.3,DedicatedGraphics,Windows8,No,1999.53
-Pentium,4,11.6,Integrated/On-BoardGraphics,Windows8,No,579.99
 i54th,8,15.6,Integrated/On-BoardGraphics,Windows8,No,549.99
 i54th,8,15.6,Integrated/On-BoardGraphics,Windows10,No,649.99
 i74th,16,15.6,DedicatedGraphics,Windows8,No,1278.7
@@ -406,7 +378,6 @@ Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,298.95
 i54th,8,14,Integrated/On-BoardGraphics,Windows10,No,1600
 i74th,4,17.3,DedicatedGraphics,Windows7,No,1300
 i54th,12,13.3,DedicatedGraphics,Windows8,No,979.95
-Celeron,2,11.6,Integrated/On-BoardGraphics,Windows8,No,299.99
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows8,No,299.99
 i54th,8,15.6,Integrated/On-BoardGraphics,Windows8,No,1200.73
 i33rd,4,15.6,Integrated/On-BoardGraphics,Windows7,No,689.53
@@ -434,13 +405,10 @@ Celeron,2,13.3,Integrated/On-BoardGraphics,Windows8,Yes,431.56
 i74th,8,14,Integrated/On-BoardGraphics,Windows7,No,2254.53
 i74th,12,17.3,Integrated/On-BoardGraphics,Windows8,No,1744.53
 i74th,8 ,15.6,DedicatedGraphics,Windows8,No,1429.53
-Core2Duo,2 ,14.1,DedicatedGraphics,Windows7,No,1163
-Pentium,4,11.6,Integrated/On-BoardGraphics,Windows10,No,559.53
 i74th,24,17.3,DedicatedGraphics,Windows10,No,1975.36
 i74th,8,15.6,DedicatedGraphics,Windows8,No,2199.53
 i74th,12,15.6,Integrated/On-BoardGraphics,Windows10,No,1154.53
 Celeron,2 ,11.6,Integrated/On-BoardGraphics,Windows8,No,305.49
-Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,544.53
 Celeron,4,11.6,Integrated/On-BoardGraphics,Windows10,No,499.53
 Pentium,4,15.6,Integrated/On-BoardGraphics,Windows8,No,514.53
 i54th,12,15.6,Integrated/On-BoardGraphics,Windows8,No,1145.36
@@ -463,15 +431,12 @@ i74th,16 ,15.6,DedicatedGraphics,Windows8,No,1618.15
 i74th,16,15.6,DedicatedGraphics,Windows10,No,1999.53
 i74th,16,15.6,DedicatedGraphics,Windows10,No,1240.73
 i74th,8,13.3,Integrated/On-BoardGraphics,Windows8,Yes,1899.53
-Pentium,12,17.3,Integrated/On-BoardGraphics,Windows10,No,879.95
 Pentium,4,15.6,Integrated/On-BoardGraphics,Windows10,No,339.99
 Celeron,4,11.6,Integrated/On-BoardGraphics,Windows7,No,454.53
 i54th,4 ,14,Integrated/On-BoardGraphics,Windows7,No,543
 Celeron,2,14,Integrated/On-BoardGraphics,Windows10,No,225
 i74th,16,15.6,DedicatedGraphics,Windows8,No,1899.53
 i74th,8,17.3,DedicatedGraphics,Windows8,No,2010.73
-Celeron,8,15.6,Integrated/On-BoardGraphics,Windows8,No,514.76
-Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,524.53
 Celeron,2,14,Integrated/On-BoardGraphics,Windows10,No,275.97
 i54th,8,17.3,DedicatedGraphics,Windows7,No,637.85
 i54th,12,13.3,DedicatedGraphics,Windows8,Yes,1194.95
@@ -479,8 +444,6 @@ Pentium,4,17.3,Integrated/On-BoardGraphics,Windows10,No,664.53
 i74th,16 ,15.6,Integrated/On-BoardGraphics,Windows8,Yes,1649.17
 i74th,8 ,14,Integrated/On-BoardGraphics,Windows8,No,1379.73
 i74th,8,15.6,Integrated/On-BoardGraphics,Windows8,No,677.99
-Pentium,4,11.6,Integrated/On-BoardGraphics,Windows10,Yes,599.53
-Celeron,4,13.3,Integrated/On-BoardGraphics,ChromeOS,Yes,654.53
 i53rd,4,14,Integrated/On-BoardGraphics,Windows7,No,525
 i74th,12,15.6,Integrated/On-BoardGraphics,Windows8,No,1654.53
 i74th,8,15.6,Integrated/On-BoardGraphics,Windows8,No,834.53
@@ -499,7 +462,6 @@ Celeron,4 ,11.6,Integrated/On-BoardGraphics,Windows7,No,562.17
 i74th,8,13.3,Integrated/On-BoardGraphics,Windows7,Yes,1549
 i74th,8,14,Integrated/On-BoardGraphics,Windows7,Yes,1999.53
 i74th,6,15.6,Integrated/On-BoardGraphics,Windows7,No,799.53
-Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,634.53
 i54th,4 ,14,Integrated/On-BoardGraphics,Windows7,No,1179.99
 Pentium,12,17.3,Integrated/On-BoardGraphics,Windows10,No,879.95
 i74th,8 ,15.6,DedicatedGraphics,Windows7,Yes,1899.99
@@ -526,7 +488,6 @@ i74th,16,17.3,DedicatedGraphics,Windows8,No,1774.53
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,499.53
 i74th,8,15.6,DedicatedGraphics,Windows8,No,1654.53
 Celeron,4,11.6,Integrated/On-BoardGraphics,ChromeOS,Yes,199.99
-Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,524.53
 Celeron,4,11.6,Integrated/On-BoardGraphics,Windows8,No,454.53
 i74th,8,13.3,Integrated/On-BoardGraphics,Windows8,Yes,1654.53
 Celeron,2,11.6,Integrated/On-BoardGraphics,ChromeOS,Yes,184.99
@@ -547,7 +508,6 @@ Celeron,2,11.6,Integrated/On-BoardGraphics,Windows8,No,379.53
 i74th,12,15.6,Integrated/On-BoardGraphics,Windows8,No,1155.73
 Celeron,2,14,Integrated/On-BoardGraphics,Windows10,No,399.53
 i54th,4,15.6,Integrated/On-BoardGraphics,Windows7,No,934.53
-Pentium,4,17.3,Integrated/On-BoardGraphics,Windows10,No,654.53
 i74th,8 ,14,Integrated/On-BoardGraphics,Windows7,No,1349.55
 i74th,16,17.3,DedicatedGraphics,Windows8,Yes,2554.53
 i54th,12,15.6,Integrated/On-BoardGraphics,Windows8,No,728.96
@@ -556,7 +516,6 @@ Celeron,2,14,Integrated/On-BoardGraphics,ChromeOS,No,186.19
 i74th,8,15.6,Integrated/On-BoardGraphics,Windows7,Yes,1899.53
 i74th,16,15.6,Integrated/On-BoardGraphics,Windows7,Yes,3754.53
 i54th,4 ,15.6,Integrated/On-BoardGraphics,Windows7,No,1084.99
-Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,625.73
 i54th,8,13.3,Integrated/On-BoardGraphics,Windows8,Yes,864.53
 i54th,12,15.6,Integrated/On-BoardGraphics,Windows8,Yes,1280.65
 i74th,8,15.6,DedicatedGraphics,Windows8,No,1584.53
@@ -627,7 +586,6 @@ Celeron,2,15.6,Integrated/On-BoardGraphics,Windows10,No,655.73
 i74th,24 ,17.3,Integrated/On-BoardGraphics,Windows8,No,1892.5
 i74th,8,17.3,DedicatedGraphics,Windows8,No,1844.53
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,209.99
-Celeron,2,11.6,Integrated/On-BoardGraphics,Windows7,No,349.99
 Pentium,4,17.3,Integrated/On-BoardGraphics,Windows7,No,442.98
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows8,No,185
 i74th,16,17.3,Integrated/On-BoardGraphics,Windows8,No,1441.45
@@ -636,7 +594,6 @@ i74th,8,17.3,DedicatedGraphics,Windows8,No,1544.53
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,469.53
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,242.98
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows8,Yes,404.53
-Pentium,8,11.6,Integrated/On-BoardGraphics,Windows10,Yes,689.53
 i74th,8,14,Integrated/On-BoardGraphics,Windows8,Yes,1712.62
 i74th,16,12.3,Integrated/On-BoardGraphics,Windows10,Yes,2599.53
 i74th,8,14,Integrated/On-BoardGraphics,Windows10,No,1000
@@ -671,16 +628,13 @@ i74th,16,17.3,DedicatedGraphics,Windows8,Yes,2600.73
 i74th,8,13.3,Integrated/On-BoardGraphics,Windows8,Yes,1799.53
 i33rd,6,17.3,Integrated/On-BoardGraphics,Windows7,No,529.99
 i74th,16,17.3,DedicatedGraphics,Windows8,Yes,2124.53
-Celeron,2,11.6,Integrated/On-BoardGraphics,ChromeOS,No,540.73
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows7,No,499.53
-Celeron,4,14,Integrated/On-BoardGraphics,ChromeOS,No,640.73
 Celeron,2,14,Integrated/On-BoardGraphics,Windows10,No,399.53
 i74th,16,15.6,DedicatedGraphics,Windows7,No,2899.53
 i74th,16,15.6,Integrated/On-BoardGraphics,Windows8,No,949
 i74th,16 ,17.3,DedicatedGraphics,Windows8,No,2254.53
 Pentium,4,17.3,Integrated/On-BoardGraphics,Windows8,No,944.53
 i74th,8,15.6,Integrated/On-BoardGraphics,Windows8,No,1224.53
-Pentium,4,15.6,Integrated/On-BoardGraphics,Windows8,No,564.53
 Celeron,4,11.6,Integrated/On-BoardGraphics,ChromeOS,No,590.73
 Pentium,4,15.6,Integrated/On-BoardGraphics,Windows8,No,499.53
 i74th,12 ,17.3,DedicatedGraphics,Windows8,No,1954.53
@@ -696,8 +650,6 @@ Celeron,2,11.6,Integrated/On-BoardGraphics,ChromeOS,No,444.53
 i74th,16,17.3,DedicatedGraphics,Windows8,No,1754.53
 Celeron,4,11.6,Integrated/On-BoardGraphics,ChromeOS,No,590.73
 Celeron,2,13.3,Integrated/On-BoardGraphics,Windows10,No,645.73
-Pentium,4,15.6,Integrated/On-BoardGraphics,Windows8,No,499.53
-Pentium,2,11.6,Integrated/On-BoardGraphics,Windows10,No,524.53
 i74th,16,15.6,DedicatedGraphics,Windows8,Yes,2554.53
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,399.53
 i74th,12 ,17.3,DedicatedGraphics,Windows8,No,1954.53
@@ -713,7 +665,6 @@ Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,344.53
 i74th,16 ,17.3,Integrated/On-BoardGraphics,Windows8,No,1394.95
 i74th,16,15.6,DedicatedGraphics,Windows7,Yes,2654.53
 i54th,4,11.6,Integrated/On-BoardGraphics,Windows8,No,650.89
-Pentium,4,17.3,Integrated/On-BoardGraphics,Windows8,No,864.53
 i74th,16,18.4,DedicatedGraphics,Windows8,Yes,4284.53
 i33rd,6,17.3,Integrated/On-BoardGraphics,Windows7,No,529.21
 Celeron,2,14,Integrated/On-BoardGraphics,Windows10,No,399.53
@@ -724,8 +675,6 @@ i74th,8,15.6,DedicatedGraphics,Windows8,No,1799.53
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,499.53
 i54th,8 ,15.6,DedicatedGraphics,Windows8,No,1699.53
 i74th,12,17.3,Integrated/On-BoardGraphics,Windows8,No,1349.95
-Celeron,4,15.6,Integrated/On-BoardGraphics,ChromeOS,Yes,524.53
-Celeron,4,11.6,Integrated/On-BoardGraphics,Windows8,No,755.73
 i74th,8 ,14,Integrated/On-BoardGraphics,Windows8,Yes,1599.71
 Celeron,2,11.6,Integrated/On-BoardGraphics,ChromeOS,No,540.73
 i74th,8 ,15.6,DedicatedGraphics,Windows8,No,1099.53
@@ -736,13 +685,10 @@ i74th,16,15.6,DedicatedGraphics,Windows8,No,1399.53
 i74th,8,13.3,Integrated/On-BoardGraphics,Windows8,Yes,1554.53
 i74th,16,17.3,DedicatedGraphics,Windows8,Yes,3454.53
 Celeron,4,11.6,Integrated/On-BoardGraphics,Windows7,No,355.05
-Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,524.53
-Celeron,2,14,Integrated/On-BoardGraphics,Windows8,No,599.53
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,499.53
 Celeron,2,14,Integrated/On-BoardGraphics,ChromeOS,No,424.53
 Celeron,4,11.6,Integrated/On-BoardGraphics,ChromeOS,Yes,354.53
 Celeron,2,14,Integrated/On-BoardGraphics,Windows10,No,399.53
-Pentium,4,11.6,Integrated/On-BoardGraphics,Windows10,No,755.73
 Celeron,2,11.6,Integrated/On-BoardGraphics,ChromeOS,Yes,344.53
 Celeron,2,15.6,Integrated/On-BoardGraphics,ChromeOS,Yes,454.53
 i53rd,16,14,Integrated/On-BoardGraphics,Windows8,Yes,1799.99
@@ -799,7 +745,6 @@ i74th,8,15.6,DedicatedGraphics,Windows8,Yes,1544.53
 Celeron,4,13.3,Integrated/On-BoardGraphics,ChromeOS,No,570.73
 Atom,2,10.1,Integrated/On-BoardGraphics,Windows8,No,454.53
 i74th,16,15.6,DedicatedGraphics,Windows8,No,2744.53
-Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,434.53
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,343.95
 Celeron,2,14,Integrated/On-BoardGraphics,Windows10,No,374.53
 Pentium,4,14,Integrated/On-BoardGraphics,Windows10,Yes,624.53
@@ -811,18 +756,15 @@ Celeron,4,11.6,Integrated/On-BoardGraphics,ChromeOS,No,464.53
 i54th,4,14,Integrated/On-BoardGraphics,Windows7,No,1275.26
 i74th,12,15.6,DedicatedGraphics,Windows8,No,1299.53
 i54th,8,15.6,DedicatedGraphics,Windows8,No,1044.53
-Celeron,4,11.6,Integrated/On-BoardGraphics,Windows10,No,499.53
 i74th,8,15.6,DedicatedGraphics,Windows8,Yes,1399.53
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,499.53
 Pentium,4,11.6,Integrated/On-BoardGraphics,Windows10,No,599.53
 i74th,24,17.3,DedicatedGraphics,Windows8,No,2110.73
 i74th,16,17.3,DedicatedGraphics,Windows8,No,2199.53
 i74th,12 ,17.3,DedicatedGraphics,Windows8,Yes,2199.53
-Celeron,4,13.3,Integrated/On-BoardGraphics,ChromeOS,No,534.53
 Celeron,4,11.6,Integrated/On-BoardGraphics,ChromeOS,No,399.53
 Celeron,4,15.6,Integrated/On-BoardGraphics,ChromeOS,No,499.53
 Celeron,4,11.6,Integrated/On-BoardGraphics,Windows8,No,720.73
-Celeron,8,17.3,Integrated/On-BoardGraphics,Windows10,No,799.53
 Celeron,4,11.6,Integrated/On-BoardGraphics,ChromeOS,Yes,290.3
 i74th,16,17.3,DedicatedGraphics,Windows8,No,1444.53
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows8,Yes,404.53
@@ -844,8 +786,6 @@ Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,249.99
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows8,No,399.53
 i74th,16,15.6,DedicatedGraphics,Windows8,Yes,2754.53
 Celeron,2,11.6,Integrated/On-BoardGraphics,ChromeOS,No,199.99
-Celeron,2,11.6,Integrated/On-BoardGraphics,Windows8,No,499.53
-Celeron,4,15.6,Integrated/On-BoardGraphics,Windows8,No,534.53
 i74th,16,17.3,DedicatedGraphics,Windows7,Yes,3099.53
 i74th,12,17.3,DedicatedGraphics,Windows8,No,2169.53
 i74th,32,17.3,DedicatedGraphics,Windows8,Yes,4499.53
@@ -877,31 +817,25 @@ i74th,8,17.3,DedicatedGraphics,Windows8,No,1154.53
 i53rd,4 ,13.1,Integrated/On-BoardGraphics,Windows7,No,3795
 i74th,12,15.6,Integrated/On-BoardGraphics,Windows10,No,1999.53
 i54th,4 ,14,Integrated/On-BoardGraphics,Windows7,No,1212.99
-Celeron,4,13.3,Integrated/On-BoardGraphics,ChromeOS,No,570.73
 i74th,16,15.6,DedicatedGraphics,Windows8,Yes,1834.53
 i74th,16,17.3,DedicatedGraphics,Windows8,No,1754.53
 i74th,16,15.6,DedicatedGraphics,Windows8,Yes,1399.53
-Atom,2,10.1,Integrated/On-BoardGraphics,Windows8,No,399.53
 Celeron,2,13.3,Integrated/On-BoardGraphics,Windows8,No,499.53
 i74th,16,17.3,DedicatedGraphics,Windows8,No,1444.53
 i74th,12,17.3,DedicatedGraphics,Windows8,No,1499.53
 i74th,16,15.6,DedicatedGraphics,Windows8,Yes,1999.53
 i74th,16,15.6,DedicatedGraphics,Windows8,Yes,1799.53
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows8,No,434.53
-Pentium,4,11.6,Integrated/On-BoardGraphics,Windows10,No,599.53
 Celeron,2,11.6,Integrated/On-BoardGraphics,ChromeOS,No,454.53
 i74th,16,17.3,DedicatedGraphics,Windows8,Yes,2599.53
 i74th,8,17.3,DedicatedGraphics,Windows10,No,2199.53
 Celeron,2,11.6,Integrated/On-BoardGraphics,ChromeOS,Yes,319.53
-Pentium,4,11.6,Integrated/On-BoardGraphics,Windows8,No,599.53
 i74th,16,17.3,DedicatedGraphics,Windows8,Yes,2654.53
 i74th,16,17.3,DedicatedGraphics,Windows8,Yes,2600.73
 Pentium,4,17.3,Integrated/On-BoardGraphics,Windows8,No,944.53
 Celeron,4,11.6,Integrated/On-BoardGraphics,ChromeOS,Yes,469.53
 Celeron,4,11.6,Integrated/On-BoardGraphics,ChromeOS,No,389.53
 i74th,16,14,DedicatedGraphics,Windows10,Yes,2799.53
-Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,650.73
-Celeron,2,11.6,Integrated/On-BoardGraphics,ChromeOS,Yes,655.73
 Celeron,2,11.6,Integrated/On-BoardGraphics,Windows10,No,354.53
 Celeron,4,15.6,Integrated/On-BoardGraphics,Windows10,No,454.53
 Celeron,2,11.6,Integrated/On-BoardGraphics,ChromeOS,No,344.53
@@ -924,7 +858,6 @@ i74th,8,15.6,DedicatedGraphics,Windows8,No,1499.53
 i74th,16,17.3,DedicatedGraphics,Windows8,No,2054.53
 i74th,12,17.3,DedicatedGraphics,Windows8,No,1554.53
 Celeron,4,11.6,Integrated/On-BoardGraphics,ChromeOS,Yes,454.53
-Celeron,2,11.6,Integrated/On-BoardGraphics,Windows8,No,524.53
 i54th,8,14,DedicatedGraphics,Windows8,No,1239.53
 i74th,8,15.6,DedicatedGraphics,Windows8,No,1179.53
 i74th,24,17.3,DedicatedGraphics,Windows8,No,2110.73
@@ -945,13 +878,10 @@ i54th,8,15.6,Integrated/On-BoardGraphics,Windows10,No,599.99
 i54th,4 ,14,Integrated/On-BoardGraphics,Windows7,Yes,380
 i54th,6,15.6,Integrated/On-BoardGraphics,Windows10,No,449.99
 i74th,16,17.3,Integrated/On-BoardGraphics,Windows8,No,983.69
-Pentium,4,15.6,Integrated/On-BoardGraphics,Windows10,No,349.99
-Pentium,4,15.6,Integrated/On-BoardGraphics,Windows10,No,399.99
 i54th,4,15.6,Integrated/On-BoardGraphics,Windows10,No,489.99
 i54th,4,14,Integrated/On-BoardGraphics,Windows7,No,792.69
 i54th,4,14,Integrated/On-BoardGraphics,Windows7,No,559.99
 Pentium,4,15.6,Integrated/On-BoardGraphics,Windows10,No,419.99
-Celeron,4,13.3,Integrated/On-BoardGraphics,ChromeOS,No,210
 i74th,16,15.6,DedicatedGraphics,Windows7,Yes,2699.53
 AMDSemprom,4 ,15.6,Integrated/On-BoardGraphics,Windows10,No,288
 Pentium,4,15.6,Integrated/On-BoardGraphics,Windows10,No,369.99
@@ -964,6 +894,5 @@ Celeron,2,14,Integrated/On-BoardGraphics,Windows7,No,298.99
 i33rd,6,17.3,Integrated/On-BoardGraphics,Windows7,No,531.98
 Celeron,4,11.6,Integrated/On-BoardGraphics,Windows7,No,291.98
 Pentium,4,17.3,Integrated/On-BoardGraphics,Windows7,No,425.98
-Pentium,4,17.3,Integrated/On-BoardGraphics,Windows7,No,413.49
 Celeron,4,11.6,Integrated/On-BoardGraphics,ChromeOS,No,289.98
 
