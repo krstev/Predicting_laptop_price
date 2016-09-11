@@ -102,7 +102,7 @@ Listing 3 - Primer podataka u drugom skupu podataka
 
 # Tehnička realizacija
 
-Prikupljanje podataka i njihova obrada je urađena u programskom jeziku PHP. Testiranje prediktivnih modela je implementirano u programskom jeziku Java, korišćenjem biblioteke [Weka](http://www.cs.waikato.ac.nz/ml/weka/). Weka je biblioteka koja sadrži čitavu lepeu algoritama mašinskog učenja koji se koriste za analizu podataka. U pitanju je "open source" softver.[5]
+Prikupljanje podataka i njihova obrada je urađena u programskom jeziku PHP. Testiranje prediktivnih modela je implementirano u programskom jeziku Java, korišćenjem biblioteke [Weka](http://www.cs.waikato.ac.nz/ml/weka/). Weka je biblioteka koja sadrži čitavu lepezu algoritama mašinskog učenja koji se koriste za analizu podataka. U pitanju je "open source" softver.[5]
 Klase koje su korišćene iz navedene biblioteke su IBk (za k najbližih suseda), LinearRegression (za linearnu regresiju), M5P i REPTree.
 
 # Analiza
