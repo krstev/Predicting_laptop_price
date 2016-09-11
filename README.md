@@ -5,7 +5,7 @@ Osnovna ideja projekta je prikupljanje podataka i cena novih laptop računara sa
 # Korišćene metode
 
 ### Metoda k-najbližih suseda
-Metoda k-najbližih suseda (eng. k-Nearest Neigbours) predstavlja neparametrsku klasifikacionu tehniku koja klasifikuje zadati vektor atributa na osnovu skupa od k najbližih suseda tog vektora. Pri tom se pod najbližim susedima misli na podatke iz trening skupa podataka koji imaju najviši stepen sličnosti vektora atributa sa posmatranim vektorom.[1]
+Metoda k-najbližih suseda (eng. k-Nearest Neigbours) predstavlja neparametrsku klasifikacionu tehniku koja klasifikuje zadati vektor atributa na osnovu skupa od k najbližih suseda tog vektora. Pri tom se pod najbližim susedima misli na podatke iz trening skupa podataka koji imaju najviši stepen sličnosti vektora atributa sa posmatranim vektorom.[1] Sličnost između atributa se može meriti na dva načina, merom indirektne proporcijonalnosti distance (1/d) i merom komplementa distance (1-d), gde je d distanca izmerena Euklidskom udaljenošću. 
 
 ### Linearna regresija
 Linearna regresija (eng. Linear Regression) je popularna tehnika koja se često koristi u procesu otkrivanja zakonitosti u podacima (eng. Data Mining). Uopšteno, model koristi jednu ili više nezavisnih promenljivih i predviđa nezavisnu promeljivu kao rezultat. Regresioni model se koristi za predviđanje vrednosti nepoznate promenljive.[2]
@@ -63,7 +63,7 @@ aspectFilter(2).aspectName=Memory&aspectFilter(0).aspectValueName=1+GB+or+more
  - da li računar poseduje SSD
  - cena )koja je naglašena da treba da bude fiksna, kako pri prikupljanju podataka u obzir ne bi ulazili podaci o aukcijama koji bi zbog specifičnosti stvaranja cene mogli narušiti konzistentnost skupa podataka)
 
-Obradom prikupljenih podataka napravljena su dva skupa podataka u [.arff](https://weka.wikispaces.com/ARFF+(stable+version)) formatu koji izgledaju kao u Listingu 2 (prvi podskup podataka), onosno Listingu 3 (drugi podstup podataka).
+Obradom prikupljenih podataka napravljena su dva skupa podataka u [.arff](https://weka.wikispaces.com/ARFF+(stable+version)) formatu koji izgledaju kao u Listingu 2 (prvi podskup podataka), onosno Listingu 3 (drugi podstup podataka). Oba skupa podataka sadrže po 878 instanci. 90% skupa podataka, odnosno 790 instanci je korišćeno za treniranje modela, dok je ostatak od 88 instanci korišćen za njihovo testiranje.  
  ```
 @ATTRIBUTE processor	{i34th,i33rd,i51st,i52nd,i53rd,i54th,i73rd,i74th,Pentium,Celeron,Atom,AMDSemprom,AMDESeries,Core2Duo,Core2Quad}
 @ATTRIBUTE memory		numeric
@@ -122,9 +122,11 @@ Srednja kvadradna greška je prosečna vrednost kvadradnog odstupanja izmerene o
 Kao kod relativne apsolutne greške, ovaj parametar prikazuje udeo kvadratne greške u veličini stvarne vrednosti. Ovaj parametar je važno koristiti kod upoređivanja različitih modela i njihovih srednjih kvadratnih odstupanja.<br>
 
 ## ε slučajna greška
-Model linearne regresije je jedini algoritam koji ima specifičan parametar pogodan za međusobno upoređivanje više linearnih modela - ε slučajna greška. Upravo zbog toga su prvo analizirana dva dobijena linearna modela trenirana na prikupljenim skupovima podataka. 
+Model linearne regresije je jedini algoritam koji ima specifičan parametar pogodan za međusobno upoređivanje više linearnih modela - ε slučajna greška. Upravo zbog toga su prvo analizirana dva dobijena linearna modela trenirana na prikupljenim skupovima podataka.
 ![linearnimodel1](https://cloud.githubusercontent.com/assets/10245806/17697703/a22141bc-63b6-11e6-8165-15b5a413abc1.png "Linearni model 1")
 ![linearnimodel2](https://cloud.githubusercontent.com/assets/10245806/17697730/c7aa35ba-63b6-11e6-94a8-b703586eeb46.png "Linearni model 2")
+
+Kod treniranja modela metodom k-najbližih suseda (eng. k-Nearest Neigbours) su korišćena dva različita načina merenja distanci, stoga su i prikazana dva modela trenirana ovom metodom. Model k-najbližih suseda("I") je treniran sa indirektnom proporcijonalnom distancom, dok je model k-najbližih suseda("F") treniran sa merom komplementa distance (1-d).
 
 ## Rezultati
 Iz funkcija regresionih modela može se uočiti da je ε, slučajna greška, odnosno skrivena promenljiva koja pokazuje neopisanost modela kod prvog modela 166,0519 a drugog 183,657 iz čega se može zaključiti da, što se linearne regresije tiče, bolji model dobijen treniranjem nad prvim skupom podataka.
